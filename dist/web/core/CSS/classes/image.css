@@ -1,0 +1,10 @@
+.image {
+    display:inline-block;
+    position:relative;
+    border:3px solid transparent;
+    overflow:hidden;
+    border-radius:100%; 
+}
+.image:hover {
+    border-color: cornflowerblue; 
+}

@@ -1,0 +1,46 @@
+.chat .nav {
+    position:absolute;
+    top:0px;
+    left:5px;
+    width:145px;
+    height:100%;
+    background:gainsboro;
+    overflow:auto;
+}
+
+.chat .nav .content {
+    position:relative;
+    width:100%;
+    height:100%;
+}
+
+.chat .nav .switch {
+    height:40px;
+    top:0px;
+    left:0px;
+}
+
+.chat .topics, .chat .users {
+    position:absolute;
+    width:100%;
+    top:40px;
+    left:0px;
+    height:calc(100% - 40px);
+}
+
+.chat .nav li {
+    padding:5px;
+    cursor:pointer;
+    list-style:none;
+    padding:5px;
+    margin:0px;
+}
+.chat .nav ul {
+    margin:0px;
+    padding:0px;
+}
+.chat .nav .topics li:hover {
+    background:white;
+}
+
+ 

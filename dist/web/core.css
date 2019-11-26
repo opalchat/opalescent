@@ -1,0 +1,854 @@
+/*
+ * OPAL STYLESHEETS (Compiled)
+ * [Lines] - Old: 876  New: 850
+ * [Chars] - Old: 14633  New: 13048
+ */
+.portal-Find main {
+ left:0px !important;
+ width:100% !important;
+}
+.portal-Find nav {
+ left:0px !important;
+ width:100% !important;
+}
+
+.portal-Find table {
+ width:100%;
+ height:100%;
+ position:absolute;
+ text-align:center;
+}
+.portal-Find td > * {
+ vertical-align:middle;
+ text-align:left;
+}
+
+.portal-Find .form {
+ margin-top:0px;
+}
+
+.portal-Find .a, .portal-Find .results :first-child {
+ background:white;}
+.portal-Find .FindBox {
+ background:white;
+ margin:20px;
+ position:relative;
+ height:40px;
+ overflow:hidden;
+ border-radius:3px;
+}
+.portal-Find .icon { 
+ background:gainsboro; 
+ padding:12px 5px !important;
+ display:inline-block;
+ color:gray;
+}
+.portal-Find input {
+ position:absolute;
+ left:25px; 
+ height:100%;
+ width:calc(100% - 60px);
+ padding-left:10px;
+ padding-right:10px;
+}
+.portal-Find input:focus {
+ outline:0px;
+ box-shadow:none;
+ border:0px;
+}
+.portal-Find .results {
+ margin:25px;
+}
+.portal-Find .result {
+ border-radius:3px;
+ box-shadow:0px 1px 2px gray;
+ background:white;
+ display:block;
+ overflow:hidden;
+ padding:25px;
+}
+.portal-Auth main {
+ left:0px !important;
+ width:100% !important;
+}
+.portal-Auth nav {
+ left:0px !important;
+ width:100% !important;
+}
+
+.portal-Auth table {
+ width:100%;
+ height:100%;
+ position:absolute;
+ text-align:center;
+}
+.portal-Auth td > * {
+ vertical-align:middle;
+ text-align:left;
+}
+
+.portal-Auth .form {
+ margin-top:0px;
+}
+#profile_overview ul {
+ margin:0px;
+ padding:0px;
+}
+#profile_overview li {
+ list-style:none;
+ padding:10px;
+ cursor:pointer;
+}
+#profile_overview li:active {
+ background:whitesmoke;
+}
+#profile_overview li:hover {
+ background:white;
+}
+.portal-Home .home {
+ padding-left: 10%;
+}
+
+.portal-Home .userHeader { 
+ padding: 20px;
+}
+
+.portal-Home .usernameText {
+ padding: 10px;
+ font-size: 20px;
+}
+.portal-Home .feedInput {
+ width: 80%;
+ height: 50px;
+}
+
+.portal-Home .feedInput section {
+ width: 100%;
+ height: 100%;
+ text-align: center;
+ background-color: white;
+}
+
+.portal-Home .feedInput table {
+ width: 100%;
+ height: 100%;
+}
+
+.portal-Home .postButton {
+ border: 1px solid #000000;
+ width: 50px;
+ font-size: 18px;
+}
+
+
+.portal-Home .postInput {
+ display: inline-block;
+ width: 100%;
+ height: 100%;
+ text-align: center;
+ vertical-align: middle;
+}
+
+.portal-Home textarea {
+ font-size: 16px;
+ width: 95%;
+ height: 95%;
+ resize: none;
+}
+
+.portal-Home .feedOutput {
+ margin-top: 10px;
+ height: 300px;
+ width: 80%;
+ background: white;
+}
+
+.portal-Home .outputUsername {
+ display: inline-block;
+}
+.portal-Chat nav li {
+ display:block;
+ position:relative;
+ text-align:center;
+ height:50px;
+ width:50px;
+ border-radius:100%;
+ padding:0px;
+ margin:0px;
+}
+.portal-Chat nav li:hover label {
+ display:block;
+}
+
+.portal-Chat nav {
+ width:50px !important;
+ background:white !important;
+}
+
+.portal-Chat main {
+ left:55px !important;
+ width:calc(100% - 60px) !important;
+}
+
+.portal-Chat nav label {
+ display:none;
+ position:absolute;
+ left:50px;
+ top:5px;
+ background:black;
+ padding:5px 10px;
+ color:white;
+ border-radius:2px;
+}
+
+.portal-Chat .image {
+ width:40px;
+ height:40px;
+ border-radius:100%;
+}
+.portal-Chat .image > div {
+ width:100%;
+ height:100%;
+ background-size:100%;
+}
+
+.portal-Chat footer {width:100%;}
+
+/*positioning*/
+.chat { position:relative;
+ top:0px;
+ left:0px;
+ width:100%;
+ height:100%;
+ z-index:5;}
+
+
+.chat .output {
+ position:absolute;
+ overflow:auto;
+ top:0px;
+ left:150px; 
+ height:calc(100% - 85px);
+ width:calc(100% - 150px);
+}
+
+.chat .input { position:absolute;
+ bottom:0px;
+ left:150px;
+ height:85px;
+ width:calc(100% - 150px);
+ background:white;
+ line-height:15pt;
+ letter-spacing:0.9pt;}
+
+.chat .input .options {
+ height:30px;
+ width:100%;
+ background:rgba(0,0,0,0.1);
+}.chat .input textarea {
+ height:calc(100% - 39px);
+ vertical-align:middle;
+ width:100%;
+ resize:none;
+ border:0px;
+ padding:0px;
+ margin:0px;
+ font:9pt black;
+ background:transparent;
+ letter-spacing:inherit;
+ line-height:inherit;
+}
+
+#ChatBrowser {
+ position:absolute;
+ top:0px;
+ left:0px;
+ right:0px;
+ bottom:0px;
+ background:blue;
+ display:none;
+}
+
+#ChatManager {
+ position:absolute;
+ top:0px;
+ left:0px;
+ right:0px;
+ bottom:0px;
+ background:white;
+ display:block;
+}
+.chat .nav {
+ position:absolute;
+ top:0px;
+ left:5px;
+ width:145px;
+ height:100%;
+ background:gainsboro;
+ overflow:auto;
+}
+
+.chat .nav .content {
+ position:relative;
+ width:100%;
+ height:100%;
+}
+
+.chat .nav .switch {
+ height:40px;
+ top:0px;
+ left:0px;
+}
+
+.chat .topics, .chat .users {
+ position:absolute;
+ width:100%;
+ top:40px;
+ left:0px;
+ height:calc(100% - 40px);
+}
+
+.chat .nav li {
+ padding:5px;
+ cursor:pointer;
+ list-style:none;
+ padding:5px;
+ margin:0px;
+}
+.chat .nav ul {
+ margin:0px;
+ padding:0px;
+}
+.chat .nav .topics li:hover {
+ background:white;
+}
+
+ 
+.portal-Gems main {
+ left:5px !important;
+ width:calc(100% - 10px) !important;
+ overflow:hidden;
+ border-radius:8px;
+ background:rgb(200,200,200);
+}
+
+.portal-Gems section {
+ background:white;
+ margin:1px;
+ padding:20px;
+}
+.portal-Gems .balance .fa-gem {
+ font-size:25pt !important; 
+ position:absolute;
+ text-align:center;
+ left:0px;
+ right:0px;
+ z-index:1;}
+.portal-Gems .balance {
+ position:relative;
+ display:inline-block;
+ text-align:center;
+ width:75px;
+ height:40px;
+}
+.portal-Gems .balance .text {
+ font-size:15pt;
+ line-height:25pt;
+ color:white;
+ font-weight:bold;
+ text-shadow:0px 1px 1px black, 0px 0px 1px black;
+ letter-spacing:0px;
+ position:relative;
+ z-index:2;
+}
+.portal-Gems section li {
+ list-style:none;
+ padding:5px;
+}
+.ruby {
+ color:red;
+}
+.emerald {
+ color:green;
+}
+.diamond {
+ color:skyblue;
+}
+.portal-Shop main {
+ left:0px !important;
+ width:100% !important;
+}
+.portal-Shop nav {
+ left:0px !important;
+ width:100% !important;
+}
+
+.portal-Shop table {
+ width:100%;
+ height:100%;
+ position:absolute;
+ text-align:center;
+}
+.portal-Shop td > * {
+ vertical-align:middle;
+ text-align:left;
+}
+
+.portal-Shop .form {
+ margin-top:0px;
+}
+
+.portal-Shop .a, .portal-Shop .results :first-child {
+ background:white;}
+.portal-Shop .FindBox {
+ background:white;
+ margin:20px;
+ position:relative;
+ height:40px;
+ overflow:hidden;
+ border-radius:3px;
+}
+.portal-Shop .icon { 
+ background:gainsboro; 
+ padding:12px 5px !important;
+ display:inline-block;
+ color:gray;
+}
+.portal-Shop input {
+ position:absolute;
+ left:25px; 
+ height:100%;
+ width:calc(100% - 60px);
+ padding-left:10px;
+ padding-right:10px;
+}
+.portal-Shop input:focus {
+ outline:0px;
+ box-shadow:none;
+ border:0px;
+}
+.portal-Shop .results {
+ margin:25px;
+}
+.portal-Shop .result {
+ border-radius:3px;
+ box-shadow:0px 1px 2px gray;
+ background:white;
+ display:block;
+ overflow:hidden;
+ padding:25px;
+}
+
+
+.button {
+ line-height:0px;
+ width:auto;
+ display:inline-block;
+ font-size:0pt;
+ box-shadow:0px 1px 2px rgba(0,0,0,0.3);
+ border:0px;
+ margin:5px;
+ white-space: nowrap;
+ padding:0px;
+}
+.button .text { background:white; 
+ padding:5px; 
+ border-radius:0px 3px 3px 0px;
+ width:auto;
+ height:30px;
+ display:inline-block;
+ vertical-align:middle;
+ font-size:10pt;
+ line-height:22pt;
+ padding-right:20px;}
+
+.button .icon {
+ display:inline-block;
+ height:30px;
+ padding:5px;
+ border-radius:3px 0px 0px 3px;
+ width:30px;
+ background:white;
+ line-height:20pt;
+ text-align:center;
+ vertical-align:middle;
+ font-size:10pt;
+}
+
+.button.tile {
+ padding:0.5px;
+ margin:0px;
+ box-shadow:none;
+ background:white;
+ border-radius:none;
+}
+.button.tile .icon {
+ padding:0px;
+ margin:0px;
+ box-shadow:none;
+ background:transparent;
+ border-radius:none;
+}
+.container {
+ display:inline-block;
+ position:relative;
+}
+.content {
+ position:relative;
+ width:100%;
+ height:100%;
+}
+.form {
+ padding:10px;
+ margin-top:20%;
+ text-align:left;
+ background:white;
+}
+.image {
+ display:inline-block;
+ position:relative;
+ border:3px solid transparent;
+ overflow:hidden;
+ border-radius:100%; 
+}
+.image:hover {
+ border-color: cornflowerblue; 
+}
+.input {
+ line-height:0px;
+ width:auto;
+ display:inline-block;
+ font-size:0pt; 
+ white-space: nowrap;
+}
+.input input { background:white; 
+ padding:5px; 
+ width:300px;
+ height:30px;
+ display:inline-block;
+ vertical-align:middle;
+ font-size:10pt;
+ border-bottom:2px solid cornflowerblue;}
+
+.input .icon {
+ display:inline-block;
+ height:30px;
+ padding:5px; 
+ width:30px;
+ background:white;
+ line-height:20pt;
+ text-align:center;
+ vertical-align:middle;
+ font-size:10pt;
+ border:0px;
+ border-bottom:2px solid transparent;
+ box-shadow:none;
+}
+
+body, body > div, header, footer, main { 
+ background:rgba(0,0,0,0.2);
+}
+body {
+ background-color:white;
+}
+
+textarea, input, button {
+ background:transparent;
+ border:0px;
+ border-radius:0px;
+ outline:none;
+}
+textarea:focus, input:focus, button:focus, a:focus {
+ box-shadow:0px 0px 1px cornflowerblue;
+ outline:none;
+}
+nav.apps {
+ position:fixed;
+ top:0px;
+ left:0px;
+ width:50px; 
+ z-index:2;
+ height:100%;
+}
+nav.apps table {
+ width:100%;
+ height:100%;
+}
+nav.apps td {
+ text-align:center;
+}
+nav.apps td > li {
+ text-align:left;
+ vertical-align:middle;
+}
+nav.apps ul {
+ margin:0px;
+ padding:0px;
+}
+nav.apps li {
+ list-style:none;
+ position:relative;
+ cursor:pointer;
+}
+nav.apps li.app .icon {
+ font-size:30px;
+ padding:5px;
+ display:inline-block;
+}
+nav.apps li.app .name {
+ display:none;
+ position:absolute;
+ left:50px;
+ padding:5px 15px; 
+ top:0px; 
+ margin:5px;
+ border-radius:2px;
+ background:white;
+ box-shadow:0px 1px 1px black;
+}
+nav.apps li.app:hover .name {display:block;}
+
+nav.apps li.top {
+ position:absolute;
+ left:0px;
+ top:0px;
+}
+nav.apps li.bottom {
+ position:absolute;
+ left:0px;
+ bottom:0px;
+}
+
+nav.apps {
+ position:fixed;
+ top:0px;
+ left:0px;
+ width:50px; 
+ z-index:2;
+ height:100%;
+}
+nav.apps ul {
+ margin:0px;
+ padding:0px;
+}
+nav.apps li {
+ list-style:none;
+ position:relative;
+ cursor:pointer;
+}
+nav.apps li.app .icon {
+ font-size:30px;
+ padding:5px;
+ display:inline-block;
+}
+nav.apps li.app .name {
+ display:none;
+ position:absolute;
+ left:50px;
+ padding:5px 15px; 
+ top:0px; 
+ margin:5px;
+ border-radius:2px;
+ background:white;
+ box-shadow:0px 1px 1px black;
+}
+nav.apps li.app:hover .name {display:block;}
+.portal {
+ width:calc(100% - 100px);
+ position:fixed;
+ left:50px;
+ right:50px;
+ bottom:0px;
+ top:0px;
+ margin:auto;
+}
+.portal-content {
+ position:relative;
+ overflow:auto;
+ height:100%;
+ width:100%;
+}
+
+.portal-content div[data-selected="no"] {
+ display:none;
+}
+
+.portal-content header, footer {
+ position:absolute;
+ height:40px;
+ width:auto;
+ display:block; 
+ z-index:2;
+ box-shadow:0px 0px 1px rgba(0,0,0,0.1);
+ background:white;
+ line-height:30pt;
+}
+.portal-content header {
+ top:0px;
+ left:0px;
+ display:block;
+ width:100%;
+ text-align:left;
+}
+.portal-content header H1 {
+ font-size:12pt;
+ padding:0px;
+ margin:0px;
+ margin-left:10px;
+}
+.portal-content header i {
+ margin-right:10px;
+ font-size:11.5pt;
+}
+.portal-content footer {
+ bottom:0px;
+ left:0px;
+ text-align:right;
+ display:block;
+ width:100%;
+ font-size:9pt;
+}
+.portal-content footer .text { letter-spacing:3.5px;
+ opacity:0.7;
+}
+.portal-content main {
+ position:absolute;
+ top:45px;
+ bottom:45px;
+ overflow:auto;
+ left:160px;
+ right:5px;
+ margin:auto;
+ z-index:1; 
+}
+.portal-content nav {
+ position:absolute;
+ top:45px;
+ bottom:45px;
+ left:5px;
+ height:calc(100% - 90px);
+ width:150px;
+ background:gray;
+ z-index:2;
+}
+.portal-content nav ul {
+ margin:0px;
+ padding:0px;
+}
+.portal-content nav li {
+ list-style:none;
+ cursor:pointer; 
+}
+.portal-content div[data-selected="no"] {
+ display:none;
+} 
+.portal-content .app {
+ position:relative;
+ width:100%;
+ height:100%;
+}
+
+/*globals $*/
+.backwards {
+ display:inline-block;
+ -moz-transform: scale(-1, 1);
+ -webkit-transform: scale(-1, 1);
+ -o-transform: scale(-1, 1);
+ -ms-transform: scale(-1, 1);
+ transform: scale(-1, 1);
+}
+.big {
+ font-size:15pt;
+}
+.blur {
+ filter:blur(2px);
+ -o-filter:blur(2px);
+ -webkit-filter:blur(2px);
+ -moz-filter:blur(2px);
+}
+.bold {
+ font-weight:bold;
+}
+.code {
+ border-radius:2px;
+ display:inline-block;
+ font-family:monospace, "courier new";
+ font-size:10pt;
+ padding:3px;
+ border:1px solid gray;
+ color:rgb(20,20,20);
+ background:white;
+}
+/*globals $*/
+.flip {
+ display:inline-block;
+ -moz-transform: scale(1, -1);
+ -webkit-transform: scale(1, -1);
+ -o-transform: scale(1, -1);
+ -ms-transform: scale(1, -1);
+ transform: scale(1, -1);
+}
+.glow-1 {
+ text-shadow:0px 0px 1px black;
+}
+.glow-2 {
+ text-shadow:0px 0px 3px black;
+}
+.glow-3 {
+ text-shadow:0px 0px 5px black;
+}
+
+.glow, .glow-4 {
+ text-shadow:0px 1px 1px black, 0px -1px 1px black;
+}
+.glow-5 {
+ text-shadow:0px 1px 3px black, 0px -1px 3px black;
+}
+.glow65 {
+ text-shadow:0px 1px 5px black, 0px -1px 5px black;
+}
+/*globals $*/
+.backwards {
+ display:inline-block;
+ -moz-transform: scale(-1, 1);
+ -webkit-transform: scale(-1, 1);
+ -o-transform: scale(-1, 1);
+ -ms-transform: scale(-1, 1);
+ transform: scale(-1, 1);
+}
+.huge {
+ font-size:20pt;
+}
+.italic {
+ font-style:italic;
+}
+.narrow {
+ letter-spacing:0px;
+}
+.overline {
+ text-decoration: overline;
+}
+.quote::before {
+ content:'"';
+ font-size:16px;
+}
+.quote::after {
+ content:'"';
+ font-size:16px;
+}
+
+.small {
+ font-size:9.5pt;
+}
+.strike {
+ text-decoration: line-through;
+}
+.tiny {
+ font-size:7.5pt;
+}
+.underline {
+ text-decoration: underline;
+}
+.wide {
+ letter-spacing:2px;
+}

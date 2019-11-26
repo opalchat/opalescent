@@ -1,0 +1,11 @@
+{
+    "name":         "Find",
+    "id":           "find",
+    "description":  "Search",
+    "version":      "1.0",
+    "icon":         "fas fa-search",
+    "class":        "bottom",
+    "access": [
+        {"authed":true}
+    ]
+}

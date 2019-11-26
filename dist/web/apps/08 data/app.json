@@ -1,0 +1,11 @@
+{
+    "name":         "Data",
+    "id":           "data",
+    "description":  "Asset & Data Storage",
+    "tags":         ["data","db","database","assets"],
+    "version":      "1.0",
+    "icon":         "fas fa-database",
+    "access": [
+        {"authed":true}
+    ]
+}

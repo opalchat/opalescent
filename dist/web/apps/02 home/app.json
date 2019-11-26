@@ -1,0 +1,11 @@
+{
+    "name":         "Home",
+    "id":           "home",
+    "description":  "User home page.",
+    "tags":         ["home","main"],
+    "version":      "1.0",
+    "icon":         "fas fa-home",
+    "access": [
+        {"authed":true}
+    ]
+}

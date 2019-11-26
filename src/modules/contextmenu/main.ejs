@@ -1,0 +1,33 @@
+{{ function generateMenu(obj){ }}
+    <li><label>{{=obj.label-}}</label>
+        {{ if (obj.menu){ }} <ul> {{ generateMenu(obj.menu) }} </ul> {{ } }}
+    </li>
+{{ }; }}
+
+<!--
+[
+    {
+        "label": "Cut"
+    },
+    {
+        "label": "Copy"
+    },
+    {
+        "label": "More",
+        "menu": [
+            {
+                "label": "Test"
+            },
+            {
+                "label": "Another Test."
+            }
+        ]
+    }
+]
+-->
+
+<nav class="context">
+    
+    {{ generateMenu(menu) }}
+    
+</nav>

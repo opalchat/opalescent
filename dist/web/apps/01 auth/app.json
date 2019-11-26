@@ -1,0 +1,9 @@
+{
+    "name":         "Auth",
+    "id":           "auth",
+    "description":  "Access & Identity Management",
+    "tags":         ["account","profile","register","access","iam","login","user","authentication","authorization","edit"],
+    "version":      "1.0",
+    "icon":         "fas fa-user",
+    "class":        "top"
+}

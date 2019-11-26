@@ -1,0 +1,61 @@
+.portal-Home .home {
+    padding-left: 10%;
+}
+
+.portal-Home .userHeader { 
+    padding: 20px;
+}
+
+.portal-Home .usernameText {
+    padding: 10px;
+    font-size: 20px;
+}
+.portal-Home .feedInput {
+    width: 80%;
+    height: 50px;
+}
+
+.portal-Home .feedInput section {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: white;
+}
+
+.portal-Home .feedInput table {
+    width: 100%;
+    height: 100%;
+}
+
+.portal-Home .postButton {
+    border: 1px solid #000000;
+    width: 50px;
+    font-size: 18px;
+}
+
+
+.portal-Home .postInput {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.portal-Home textarea {
+    font-size: 16px;
+    width: 95%;
+    height: 95%;
+    resize: none;
+}
+
+.portal-Home .feedOutput {
+    margin-top: 10px;
+    height: 300px;
+    width: 80%;
+    background: white;
+}
+
+.portal-Home .outputUsername {
+    display: inline-block;
+}

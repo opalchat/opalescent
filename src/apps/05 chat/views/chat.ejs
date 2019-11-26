@@ -1,0 +1,32 @@
+<div class="nav">
+    <div class="content">
+        <div class="switch">
+            <label>{{=channel.name}}</label>
+            <div class="button tile"  style="display:none"   onclick="$.app('chat').showUsers()"><i class="icon fas fa-users"></i></div>
+            <div class="button tile"  style="display:none"  onclick="$.app('chat').showTopics()"><i class="icon fas fa-hashtag"></i></div>
+        </div>
+        <div class="topics">
+            <ul>
+            {{ channel.topics.forEach(function(topic){ }}
+                <li onclick="$.app('chat').switch('{{=channel.id-}}', '{{=topic.id-}}')">{{=topic.name-}}</li>
+            {{ }); }}
+            </ul>
+        </div>
+        
+        <div class="users">
+            
+        </div>
+    </div>
+</div>
+
+<div class="output">
+</div>
+
+
+<div class="input">
+    <div class="content">
+        <div class="options"></div>
+        <textarea></textarea>
+    </div>
+</div>
+

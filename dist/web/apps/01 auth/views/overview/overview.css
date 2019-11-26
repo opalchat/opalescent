@@ -1,0 +1,15 @@
+#profile_overview ul {
+    margin:0px;
+    padding:0px;
+}
+#profile_overview li {
+    list-style:none;
+    padding:10px;
+    cursor:pointer;
+}
+#profile_overview li:active {
+    background:whitesmoke;
+}
+#profile_overview li:hover {
+    background:white;
+}

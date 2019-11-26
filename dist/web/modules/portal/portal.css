@@ -1,0 +1,96 @@
+.portal {
+    width:calc(100% - 100px);
+    position:fixed;
+    left:50px;
+    right:50px;
+    bottom:0px;
+    top:0px;
+    margin:auto;
+}
+.portal-content {
+    position:relative;
+    overflow:auto;
+    height:100%;
+    width:100%;
+}
+
+.portal-content div[data-selected="no"] {
+    display:none;
+}
+
+.portal-content header, footer {
+    position:absolute;
+    height:40px;
+    width:auto;
+    display:block; 
+    z-index:2;
+    box-shadow:0px 0px 1px rgba(0,0,0,0.1);
+    background:white;
+    line-height:30pt;
+}
+.portal-content header {
+    top:0px;
+    left:0px;
+    display:block;
+    width:100%;
+    text-align:left;
+}
+.portal-content header H1 {
+    font-size:12pt;
+    padding:0px;
+    margin:0px;
+    margin-left:10px;
+}
+.portal-content header i {
+    margin-right:10px;
+    font-size:11.5pt;
+}
+.portal-content footer {
+    bottom:0px;
+    left:0px;
+    text-align:right;
+    display:block;
+    width:100%;
+    font-size:9pt;
+}
+.portal-content footer .text {
+    
+    letter-spacing:3.5px;
+    opacity:0.7;
+}
+.portal-content main {
+    position:absolute;
+    top:45px;
+    bottom:45px;
+    overflow:auto;
+    left:160px;
+    right:5px;
+    margin:auto;
+    z-index:1; 
+}
+.portal-content nav {
+    position:absolute;
+    top:45px;
+    bottom:45px;
+    left:5px;
+    height:calc(100% - 90px);
+    width:150px;
+    background:gray;
+    z-index:2;
+}
+.portal-content nav ul {
+    margin:0px;
+    padding:0px;
+}
+.portal-content nav li {
+    list-style:none;
+    cursor:pointer; 
+}
+.portal-content div[data-selected="no"] {
+    display:none;
+} 
+.portal-content .app {
+    position:relative;
+    width:100%;
+    height:100%;
+}

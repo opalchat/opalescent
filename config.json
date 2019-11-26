@@ -1,0 +1,72 @@
+{
+  "product": {
+    "name": "OpalChat.com",
+    "version": "1.0.0",
+    "description": "Opal Chat 1.0",
+    "author": "opal@iohq.org"
+  },
+  "server": {
+    "port": "8080"
+  },
+  "directories": {
+    "source": "src",
+    "builds": "dist"
+  },
+  "builds": [
+    {
+      "name": "web",
+      "delimiter": "*",
+      "variables": {
+        "head": {
+          "title": "OpalChat.com",
+          "meta": {
+            "description": "OpalChat 1.0",
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0",
+            "robots": "index, follow"
+          }, 
+          "og": {
+            "type": "website",
+            "title": "IOHQ",
+            "description": "Empowering your business to scale.",
+            "url": "https://iohq.org?ref=og",
+            "site_name": "IOHQ.org"
+          },
+          "twitter": {
+            "title": "OpalChat",
+            "description": "Empowering your business to scale.",
+            "site": "@iohq_org",
+            "creator": "@iohq_org"
+          }
+        },
+        "front": {
+          "heading": "IOHQ",
+          "subtitle": "Focus on your business, we've got the rest.",
+          "features": [
+            {
+              "title":    "Customer Centric",
+              "content":  "We strongly believe that the focus of a service should be customer satisfaction. If you're not happy with our service, you shouldn't have to pay for it.",
+              "link":     "/kb/policies/satisfaction.html"
+            },
+            {
+              "title":    "Highly Scalable",
+              "content":  "Your company should have nothing holding it back. We provide technology that grows with your business, making it easy for you to expand at a moment's notice!",
+              "link":     "/kb/terms/scalability.html"
+            },
+            {
+              "title":    "Affordable Pricing",
+              "content":  "We focus on ensuring that our services pay for themselves. As a business owner, you need to make sure you're getting your money's worth - We can help you with that!",
+              "link":     "/kb/policies/pricing.html"
+            }
+          ]
+        }
+      },
+      "extensions": [
+        "css",
+        "js",
+        "html",
+        "json"
+      ],
+      "deploy": "publish.js"
+    }
+  ]
+}

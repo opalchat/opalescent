@@ -1,0 +1,28 @@
+<table id="profile_overview">
+ <tbody>
+  <tr>
+   <td>
+    <div class="component container form">
+     <form>
+                            
+        <h1>Hi, {{=name}}!</h1>
+        
+        <br>
+        <ul>
+            <li onclick="$.app('auth').pane('basic')">Upload Avatar</li>
+            <li onclick="$.app('auth').pane('basic')">Change Username</li>
+        </ul>
+        <ul>
+            <li onclick="$.app('auth').pane('advanced')">Edit Profile</li>
+        </ul>
+        <ul>
+            <li onclick="$.app('auth').pane('account')">Account Settings</li>
+            <li onclick="$.app('auth').signout()">Signout</li>
+        </ul>
+                            
+     </form>
+    </div>
+   </td>
+  </tr>
+ </tbody>
+</table>

@@ -1,0 +1,11 @@
+{
+    "name":         "Chat",
+    "id":           "chat",
+    "description":  "Talk to users in group channels.",
+    "tags":         ["talk","chat","channels","groups","slack","server"],
+    "version":      "1.0",
+    "icon":         "fas fa-comment-alt",
+    "access": [
+        {"authed":true}
+    ]
+}

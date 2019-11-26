@@ -1,0 +1,42 @@
+<table id="signin">
+    <tbody>
+        <tr>
+            <td>
+                <div class="component container form">
+                    <form>
+                             
+                        <h1>Sign-In</h1> 
+                        
+                        <br>
+                        
+                        <div class="messages"></div>
+                            
+                        <br>
+                        
+                        
+                        <div class="input">
+                            <i class="icon fas fa-envelope"></i>
+                            <input type="email" placeholder="Email Address" id="signin_emailaddress" />
+                        </div>
+                            
+                        <br />
+                            
+                        <div class="input">
+                            <i class="icon fas fa-lock"></i>
+                            <input autocomplete="password" placeholder="Password" type="password" id="signin_password" />
+                        </div>
+                            
+                        <br />
+                            
+                        <div class="button" onclick="$.app('auth').signin()">
+                            <i class="icon fas fa-check"></i>
+                            <div class="text">Signin</div>
+                        </div>
+                            
+                    </form>
+                    
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>

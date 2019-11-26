@@ -1,0 +1,9 @@
+{
+    "name":     "Admin",
+    "id":       "admin",
+    "version":  "1.0",
+    "icon":     "fas fa-tools",
+    "access": [
+        {"authed":true, "admin":true}
+    ]
+}

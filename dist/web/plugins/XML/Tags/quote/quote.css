@@ -1,0 +1,8 @@
+.quote::before {
+    content:'"';
+    font-size:16px;
+}
+.quote::after {
+    content:'"';
+    font-size:16px;
+}

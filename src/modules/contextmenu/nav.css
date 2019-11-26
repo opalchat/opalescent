@@ -1,0 +1,34 @@
+nav.apps {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:50px; 
+    z-index:2;
+    height:100%;
+}
+nav.apps ul {
+    margin:0px;
+    padding:0px;
+}
+nav.apps li {
+    list-style:none;
+    position:relative;
+    cursor:pointer;
+}
+nav.apps li.app .icon {
+    font-size:30px;
+    padding:5px;
+    display:inline-block;
+}
+nav.apps li.app .name {
+    display:none;
+    position:absolute;
+    left:50px;
+    padding:5px 15px; 
+    top:0px; 
+    margin:5px;
+    border-radius:2px;
+    background:white;
+    box-shadow:0px 1px 1px black;
+}
+nav.apps li.app:hover .name {display:block;}

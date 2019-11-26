@@ -1,0 +1,19 @@
+.glow-1 {
+    text-shadow:0px 0px 1px black;
+}
+.glow-2 {
+    text-shadow:0px 0px 3px black;
+}
+.glow-3 {
+    text-shadow:0px 0px 5px black;
+}
+
+.glow, .glow-4 {
+    text-shadow:0px 1px 1px black, 0px -1px 1px black;
+}
+.glow-5 {
+    text-shadow:0px 1px 3px black, 0px -1px 3px black;
+}
+.glow65 {
+    text-shadow:0px 1px 5px black, 0px -1px 5px black;
+}

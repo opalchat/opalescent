@@ -1,0 +1,102 @@
+.portal-Chat nav li {
+     display:block;
+     position:relative;
+     text-align:center;
+     height:50px;
+     width:50px;
+     border-radius:100%;
+     padding:0px;
+     margin:0px;
+}
+.portal-Chat nav li:hover label {
+    display:block;
+}
+
+.portal-Chat nav {
+    width:50px !important;
+    background:white !important;
+}
+
+.portal-Chat main {
+    left:55px !important;
+    width:calc(100% - 60px) !important;
+}
+
+.portal-Chat nav label {
+    display:none;
+    position:absolute;
+    left:50px;
+    top:5px;
+    background:black;
+    padding:5px 10px;
+    color:white;
+    border-radius:2px;
+}
+
+.portal-Chat .image {
+    width:40px;
+    height:40px;
+    border-radius:100%;
+}
+.portal-Chat .image > div {
+    width:100%;
+    height:100%;
+    background-size:100%;
+}
+
+.portal-Chat footer {width:100%;}
+
+/*positioning*/
+.chat {
+    
+    position:relative;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    z-index:5;
+    
+}
+
+
+.chat .output {
+    position:absolute;
+    overflow:auto;
+    top:0px;
+    left:150px; 
+    height:calc(100% - 85px);
+    width:calc(100% - 150px);
+}
+
+.chat .input {
+    
+    position:absolute;
+    bottom:0px;
+    left:150px;
+    height:85px;
+    width:calc(100% - 150px);
+    background:white;
+    line-height:15pt;
+    letter-spacing:0.9pt;
+    
+}
+
+.chat .input .options {
+    height:30px;
+    width:100%;
+    background:rgba(0,0,0,0.1);
+}
+ 
+.chat .input textarea {
+    height:calc(100% - 39px);
+    vertical-align:middle;
+    width:100%;
+    resize:none;
+    border:0px;
+    padding:0px;
+    margin:0px;
+    font:9pt black;
+    background:transparent;
+    letter-spacing:inherit;
+    line-height:inherit;
+}

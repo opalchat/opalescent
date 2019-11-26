@@ -1,0 +1,5 @@
+$.Object.create("Channel", {
+    
+    
+    
+});

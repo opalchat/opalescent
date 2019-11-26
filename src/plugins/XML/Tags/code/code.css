@@ -1,0 +1,10 @@
+.code {
+    border-radius:2px;
+    display:inline-block;
+    font-family:monospace, "courier new";
+    font-size:10pt;
+    padding:3px;
+    border:1px solid gray;
+    color:rgb(20,20,20);
+    background:white;
+}

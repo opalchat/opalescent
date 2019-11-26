@@ -1,0 +1,19 @@
+<nav class="apps">
+    <table>
+        <tbody>
+            <tr>
+                <td> 
+        <ul>
+            {{ $.apps.forEach(function(app){ }}
+            <li class="app {{=app.class}}" data-appname="{{=app.name}}" data-appid="{{=app.id}}">
+                <span class="icon {{=app.icon}}"></span>
+                <span class="name text">{{=app.name}}</span>
+            </li>
+            {{ }); }}
+        </ul> 
+    </td>
+            </tr>
+        </tbody>
+    </table>
+    
+</nav>

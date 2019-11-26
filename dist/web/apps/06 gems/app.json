@@ -1,0 +1,10 @@
+{
+    "name":         "Gems",
+    "id":           "gems",
+    "description":  "Earn Gems to buy cool stuff!",
+    "version":      "1.0",
+    "icon":         "fas fa-gem",
+    "access": [
+        {"authed":true}
+    ]
+}

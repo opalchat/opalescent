@@ -1,0 +1,10 @@
+{
+    "name":         "Shop",
+    "id":           "shop",
+    "description":  "Unlock features, boosts & polishes!",
+    "version":      "1.0",
+    "icon":         "fas fa-gift",
+    "access": [
+        {"authed":true}
+    ]
+}

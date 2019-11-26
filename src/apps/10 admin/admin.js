@@ -1,0 +1,9 @@
+$.Admin = {
+    
+    "init": function(){
+        
+        
+        
+    }
+    
+};

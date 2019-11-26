@@ -1,0 +1,10 @@
+textarea, input, button {
+    background:transparent;
+    border:0px;
+    border-radius:0px;
+    outline:none;
+}
+textarea:focus, input:focus, button:focus, a:focus {
+    box-shadow:0px 0px 1px cornflowerblue;
+    outline:none;
+}

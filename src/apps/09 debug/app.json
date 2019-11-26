@@ -1,0 +1,11 @@
+{
+    "name":         "Debug",
+    "id":           "debug",
+    "description":  "Debug App",
+    "tags":         ["debug","system"],
+    "version":      "1.0",
+    "icon":         "fas fa-bug",
+    "access": [
+        {"authed":true}
+    ]
+}
